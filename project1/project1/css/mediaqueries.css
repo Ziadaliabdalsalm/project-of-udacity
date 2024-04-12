@@ -1,0 +1,37 @@
+@media screen and (max-width:575px) {
+    nav{
+      position:relative;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 85px;
+      background-color: var(--background2);
+      border-bottom: 2px solid var(--itemcolor) ;
+    }
+    :root{
+      --padding:1.5%
+    }
+    html{
+      font-size: 13px;
+    }
+    .myimgs{
+      display: none;
+    }
+    nav > a{
+      display:none;
+    }
+  
+    .maintext{
+      bottom: 0;
+    }
+    .media{
+      margin-top: 100px;
+    }
+  
+    .img2{
+      display: none;
+    }
+    .skills{
+      top:-22px
+    } 
+}
